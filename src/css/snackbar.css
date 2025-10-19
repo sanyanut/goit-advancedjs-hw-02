@@ -1,0 +1,19 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.form button {
+  font-family: 'Montserrat', sans-serif;
+}
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
