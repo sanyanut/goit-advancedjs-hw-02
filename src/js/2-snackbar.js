@@ -7,7 +7,7 @@ const refs = {
 
 const toastMessage = delay => {
   return {
-    fulffilled: {
+    fulfilled: {
       message: `✅ Fulfilled promise in ${delay}ms`,
       backgroundColor: 'green',
       messageColor: 'white',
@@ -54,7 +54,7 @@ refs.form.addEventListener('submit', e => {
 
   createPromise(state, delay)
     .then(delay => {
-      iziToast.show(toastMessage(delay).fulffilled);
+      iziToast.show(toastMessage(delay).fulfilled);
     })
     .catch(delay => {
       iziToast.show(toastMessage(delay).rejected);
